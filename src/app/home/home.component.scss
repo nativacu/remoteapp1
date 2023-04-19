@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+ul {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
