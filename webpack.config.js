@@ -11,7 +11,6 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "remoteapp1",
-    scriptType: 'text/javascript',
     publicPath: 'http://localhost:5001/'
   },
   optimization: {
@@ -33,7 +32,7 @@ module.exports = {
         name: "remoteapp1",
         filename: "remoteEntry.js",
         exposes: {
-            './HomeModule': './/src/app/home/home.module.ts',
+            './homeModule': './/src/app/home/home.module.ts',
         },
 
         // For hosts (please adjust)
