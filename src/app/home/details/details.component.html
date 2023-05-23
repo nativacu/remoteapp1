@@ -1,0 +1,25 @@
+<!-- details.component.html -->
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h2>Details</h2>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-4">
+          <img title="image" [src]="person.image" [alt]="person.name" aria-describedby="person-details"
+            class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+          <h3>{{ person.name }}</h3>
+          <p><strong>Role:</strong> {{ person.role }}</p>
+          <p><strong>Bio:</strong> {{ person.bio }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a routerLink="../../" class="back-button">Back to About (../../)</a>
+  <a routerLink="/mfe1" class="back-button">Back to About (/mfe1)</a>
+  <a routerLink="/" class="back-button">Back to Home (/)</a>
+</div>
